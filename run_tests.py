@@ -4,7 +4,7 @@
 
 import unittest
 
-from tests.question_tests import question_tests
+from tests.question_tests import question_a_tests
 
-suite = unittest.TestLoader().loadTestsFromModule(question_tests)
+suite = unittest.TestLoader().loadTestsFromModule(question_a_tests)
 unittest.TextTestRunner(verbosity=2).run(suite)
